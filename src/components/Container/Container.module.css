@@ -1,0 +1,9 @@
+.containerWrap{
+    background-color: var(--main-container-color);
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 12px;        
+    min-height: calc(100vh - 45px);    
+    display: flex;
+    flex-direction: column;    
+}

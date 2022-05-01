@@ -1,0 +1,22 @@
+.navbar{
+    width: 100%;
+    background-color: var(--main-background-color);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 45px;
+
+    padding: 10px;
+}
+
+.iconNav{
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+
+.titleNav{
+    font-weight: 600;
+    color: var(--secondary-font-color);
+    font-size: 28px;
+}

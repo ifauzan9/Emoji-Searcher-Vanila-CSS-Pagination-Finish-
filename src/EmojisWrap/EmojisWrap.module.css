@@ -1,0 +1,8 @@
+.emojisWrap{    
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;           
+    height: 452px;
+    /* background-color: red; */
+}
+

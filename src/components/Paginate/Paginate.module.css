@@ -1,0 +1,49 @@
+.pagin{
+    display: flex;
+    list-style: none;    
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.list{
+    margin: 2px;
+    background-color: rgb(55, 216, 162);
+    width: 20px;
+    display: flex;
+    flex-basis: 30px;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.list:hover{
+    background-color: rgb(33, 182, 132);
+}
+
+.active{
+    background-color: rgb(231, 73, 73);
+}
+
+.list.active:hover{
+    background-color: rgb(231, 73, 73);
+}
+
+.lower , .greater{
+    width: 30px;
+    margin: 0 8px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(202, 202, 134);
+    cursor: pointer;
+}
+
+.lower:hover, .greater:hover{
+    cursor: pointer;
+}
+
+.lower:active, .greater:active{
+    background-color: aqua;
+}

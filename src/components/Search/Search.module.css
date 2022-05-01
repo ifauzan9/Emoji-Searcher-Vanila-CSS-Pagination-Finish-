@@ -1,0 +1,13 @@
+.searchWrap{    
+    display: flex;        
+}
+
+.searchText{
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;    
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: var(--main-box-shadow);
+}
